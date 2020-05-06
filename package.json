@@ -1,0 +1,21 @@
+{
+  "name": "what-is-today",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exec": "tsc && node main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "@types/puppeteer": "^2.0.1",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
